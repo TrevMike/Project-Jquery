@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-size: 62.5%;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* End of CSS Reset. */
+
+/* Global styles */
+.container {
+  margin: 0 auto;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  background: #ffffff;
+  color: #222222;
+  font-family: "Roboto", Arial, sans-serif;
+}
+button {
+  background: #ffffff;
+  color: #222222;
+  border: solid #222222 1px;
+  padding: 2%;
+  width: 25%;
+}
+.hide {
+  display: none;
+}
+.imgShow {
+  display: inline-block;
+}
+/* Header style */
+header {
+  background: #828282;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navFont {
+  font-weight: bold;
+  font-size: 2.4rem;
+  color: #ffffff;
+}
+.navHolder {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 0.6%;
+  margin-bottom: 0.6%;
+}
+.navHolder h1 {
+  width: 30%;
+}
+.navHolder img {
+  width: 3%;
+}
+.jumboTron1 {
+  background: url("../imgs//homePage/home-jumbotron.png");
+  width: 100%;
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+}
+.jumboTron1 h1 {
+  margin: 4%;
+}
+h1 {
+  font-weight: bold;
+  font-size: 6.4rem;
+  line-height: 7.5rem;
+  color: #ffffff;
+}
+h2 {
+  font-weight: bold;
+  font-size: 2.8rem;
+  color: #222222;
+}
+/*home top section styles*/
+.smArchitect {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 4%;
+}
+.smArchitect p {
+  margin-top: 4%;
+  margin-bottom: 6%;
+}
+.smArchitect img {
+  width: 35%;
+}
+.topSection1 {
+  /* background: red; */
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* bottom home Sections */
+.bottomSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottomSection h2 {
+  width: 87%;
+  text-align: left;
+  margin-top: 10%;
+  margin-bottom: 2%;
+}
+.bottomSection p {
+  width: 45%;
+  margin-bottom: 2%;
+}
+.middleHolder {
+  background: url("../imgs/homePage/home-villas-img.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 87%;
+  height: 35vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: 10%;
+  margin-top: 4%;
+}
+
+.middleHolder h3 {
+  background: #d8d8d8;
+  border: solid #ffffff 2px;
+  padding: 3%;
+  width: 30%;
+  text-align: center;
+  position: relative;
+  top: 20%;
+  font-size: 2.6rem;
+  font-weight: lighter;
+}
+.middleHolder2 {
+  background: url("../imgs/homePage/home-outskirts-img.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 87%;
+  height: 35vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-bottom: 10%;
+  margin-top: 4%;
+}
+.middleHolder2 h3 {
+  background: #d8d8d8;
+  border: solid #ffffff 2px;
+  padding: 3%;
+  width: 30%;
+  text-align: center;
+  position: relative;
+  top: 20%;
+  font-size: 2.6rem;
+  font-weight: lighter;
+}
+.middleHolder3 {
+  background: url("../imgs/homePage/home-the-blocks-img.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 87%;
+  height: 35vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: 10%;
+  margin-top: 4%;
+}
+.middleHolder3 h3 {
+  background: #d8d8d8;
+  border: solid #ffffff 2px;
+  padding: 3%;
+  width: 30%;
+  text-align: center;
+  position: relative;
+  top: 20%;
+  font-size: 2.6rem;
+  font-weight: lighter;
+}
+/* home Footer */
+footer {
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+  color: #ffffff;
+  background: #828282;
+  padding-top: 2%;
+}
+footer h3 {
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #ffffff;
+}
+.footerFlex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.leftFooter {
+  width: 25%;
+}
+.leftFooter input {
+  width: 95%;
+  border-radius: 5px;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  padding-left: 1.5%;
+  border: none;
+}
+.footerDivs {
+  width: 11%;
+}
+.copyright {
+  text-align: center;
+  margin-top: 2%;
+}
