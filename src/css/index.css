@@ -143,11 +143,11 @@ button {
   padding: 2%;
   width: 25%;
 }
-.hide {
+.menuToggle {
   display: none;
 }
-.imgShow {
-  display: inline-block;
+.hide {
+  display: none;
 }
 /* Header style */
 header {
@@ -156,7 +156,39 @@ header {
   flex-direction: column;
   align-items: center;
 }
+.xHolder {
+  width: 89%;
+  text-align: right;
+  position: fixed;
+  top: 1.2%;
+}
+.xHolder img {
+  width: 2%;
+}
 
+.menu {
+  background: rgba(130, 130, 130, 95%);
+  width: 100%;
+  position: fixed;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.menu a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 4.8rem;
+  line-height: 8.5rem;
+  color: #ffffff;
+  margin: 0.5%;
+  text-shadow: -1px 0 #222222, 0 1px #222222, 1px 0 #222222, 0 -1px #222222;
+}
+.menu a:hover {
+  color: #222222;
+  text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
+}
 .navFont {
   font-weight: bold;
   font-size: 2.4rem;
@@ -173,10 +205,12 @@ header {
   width: 30%;
 }
 .navHolder img {
+  z-index: 1000;
   width: 3%;
 }
+
 .jumboTron1 {
-  background: url("../imgs//homePage/home-jumbotron.png");
+  background: url("../imgs/homePage/home-jumbotron.png");
   width: 100%;
   height: 80vh;
   background-position: center;
@@ -347,4 +381,43 @@ footer h3 {
 .copyright {
   text-align: center;
   margin-top: 2%;
+}
+
+/* service page */
+.servicesImg {
+  background: url("../imgs/servicesPage/services-jumbotron.png");
+  width: 100%;
+  height: 35vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+}
+.servicesImg h1 {
+  margin: 2%;
+}
+.btnList {
+  display: flex;
+  justify-content: space-evenly;
+}
+.btnList button {
+  width: 20%;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+/* Contact Page */
+.contactImg {
+  background: url("../imgs/contactPage/contact-jumbotron.png");
+  width: 100%;
+  height: 35vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+}
+.contactImg h1 {
+  margin: 2%;
 }
