@@ -406,6 +406,7 @@ footer h3 {
   width: 20%;
   font-weight: bold;
   font-size: 1.3rem;
+  outline: none;
 }
 .showActive {
   background: #5e9fb9;
