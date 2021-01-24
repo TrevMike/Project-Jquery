@@ -37,7 +37,6 @@ const btn = $(".btn").on("click", function () {
   } else if (item.html() === "Construction") {
     remove();
     item.addClass("showActive");
-    // item.addClass("showActive");
     serviceImage.attr(
       "src",
       "./imgs/servicesPage/services-tab-construction-img.png"

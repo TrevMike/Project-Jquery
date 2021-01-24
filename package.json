@@ -1,0 +1,9 @@
+{
+  "name": "jqueryProject",
+  "version": "1.0.0",
+  "description": "for interview",
+  "main": "index.js",
+  "repository": "https://github.com/TrevMike/Project-Jquery-.git",
+  "author": "michael_trevino",
+  "license": "MIT"
+}
