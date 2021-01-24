@@ -532,3 +532,6 @@ select {
   color: #222222;
   margin-top: 10%;
 }
+/* media queries */
+@media (max-width: 500px) {
+}
